@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-const main_controller_1 = require("@/bot/controllers/main.controller");
+const main_controller_1 = require("../../bot/controllers/main.controller");
 exports.default = (_bot) => {
     // start
     _bot.command('start', main_controller_1.start);

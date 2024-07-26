@@ -13,7 +13,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 const telegraf_1 = require("telegraf");
-const Users_1 = __importDefault(require("@/models/Users"));
+const Users_1 = __importDefault(require("../models/Users"));
 // scenes
 const scenes_1 = require("./scenes");
 // commands
@@ -21,7 +21,7 @@ const main_commands_1 = __importDefault(require("./commands/main.commands"));
 const staking_1 = __importDefault(require("./commands/staking"));
 const launchpad_1 = __importDefault(require("./commands/launchpad"));
 const admin_commands_1 = __importDefault(require("./commands/admin.commands"));
-const pictures_1 = require("@/constants/pictures");
+const pictures_1 = require("../constants/pictures");
 exports.default = (app) => {
     const _bot = new telegraf_1.Telegraf(process.env.BOT_TOKEN, {
         handlerTimeout: 9000000 // 2.5 hours in milliseconds

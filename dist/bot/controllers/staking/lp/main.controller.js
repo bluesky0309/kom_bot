@@ -10,9 +10,9 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.menu = void 0;
-const pictures_1 = require("@/constants/pictures");
-const utils_1 = require("@/bot/utils");
-const main_controller_1 = require("@/bot/controllers/main.controller");
+const pictures_1 = require("../../../../constants/pictures");
+const utils_1 = require("../../../../bot/utils");
+const main_controller_1 = require("../../../../bot/controllers/main.controller");
 const telegraf_1 = require("telegraf");
 // show staking LP menus
 const menu = (ctx) => __awaiter(void 0, void 0, void 0, function* () {

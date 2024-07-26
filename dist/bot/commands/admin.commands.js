@@ -12,9 +12,9 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-const Users_1 = __importDefault(require("@/models/Users"));
+const Users_1 = __importDefault(require("../../models/Users"));
 const path_1 = __importDefault(require("path"));
-const Msg_1 = __importDefault(require("@/models/Msg"));
+const Msg_1 = __importDefault(require("../../models/Msg"));
 const checkAdmin = (ctx) => __awaiter(void 0, void 0, void 0, function* () {
     var _a;
     const _user = yield Users_1.default.findOne({ id: (_a = ctx === null || ctx === void 0 ? void 0 : ctx.from) === null || _a === void 0 ? void 0 : _a.id });

@@ -10,10 +10,10 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.callbackQuery = exports.textHandler = exports.enterScene = void 0;
-const utils_1 = require("@/bot/utils");
-const main_controller_1 = require("@/bot/controllers/staking/v3/main.controller");
+const utils_1 = require("../../../../bot/utils");
+const main_controller_1 = require("../../../../bot/controllers/staking/v3/main.controller");
 const telegraf_1 = require("telegraf");
-const main_controller_2 = require("@/bot/controllers/main.controller");
+const main_controller_2 = require("../../../../bot/controllers/main.controller");
 // when entering withdrawV3 scene
 const enterScene = (ctx) => __awaiter(void 0, void 0, void 0, function* () {
     let chainId = ctx.session.chainId;

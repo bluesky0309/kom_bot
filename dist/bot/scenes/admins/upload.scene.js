@@ -15,9 +15,9 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.uploadScene = void 0;
 const telegraf_1 = require("telegraf");
 const staking_controller_1 = require("../../controllers/staking/lp/staking.controller");
-const main_controller_1 = require("@/bot/controllers/main.controller");
+const main_controller_1 = require("../../../bot/controllers/main.controller");
 const axios_1 = __importDefault(require("axios"));
-const Msg_1 = __importDefault(require("@/models/Msg"));
+const Msg_1 = __importDefault(require("../../../models/Msg"));
 const fs_1 = __importDefault(require("fs"));
 const path_1 = __importDefault(require("path"));
 // Create a new scene

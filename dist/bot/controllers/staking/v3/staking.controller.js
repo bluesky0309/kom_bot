@@ -10,10 +10,10 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.callbackQuery = exports.stakeScene = exports.textHandler = exports.enterScene = void 0;
-const utils_1 = require("@/bot/utils");
-const staking_1 = require("@/bot/utils/staking");
-const main_controller_1 = require("@/bot/controllers/main.controller");
-const main_controller_2 = require("@/bot/controllers/staking/v3/main.controller");
+const utils_1 = require("../../../../bot/utils");
+const staking_1 = require("../../../../bot/utils/staking");
+const main_controller_1 = require("../../../../bot/controllers/main.controller");
+const main_controller_2 = require("../../../../bot/controllers/staking/v3/main.controller");
 const telegraf_1 = require("telegraf");
 const PERIODS = [30, 60, 90, 180, 365, 730];
 const APRs = ['(or approx. 2% p.a)', '(or approx. 3% p.a)', '(or approx. 4% p.a)', '(or approx. 6% p.a)', '(or approx. 8% p.a)', '(or approx. 10% p.a)'];

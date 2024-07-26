@@ -10,9 +10,9 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.transferStakershipScene = exports.textHandler = exports.enterScene = void 0;
-const main_controller_1 = require("@/bot/controllers/staking/v3/main.controller");
-const utils_1 = require("@/bot/utils");
-const main_controller_2 = require("@/bot/controllers/main.controller");
+const main_controller_1 = require("../../../../bot/controllers/staking/v3/main.controller");
+const utils_1 = require("../../../../bot/utils");
+const main_controller_2 = require("../../../../bot/controllers/main.controller");
 const telegraf_1 = require("telegraf");
 const ethers_1 = require("ethers");
 // when enter transferStakership scene

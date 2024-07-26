@@ -5,7 +5,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 const dotenv_1 = __importDefault(require("dotenv"));
 const bot_1 = __importDefault(require("./bot"));
-const db_1 = require("@/config/db");
+const db_1 = require("./config/db");
 const cors_1 = __importDefault(require("cors"));
 const express_1 = __importDefault(require("express"));
 dotenv_1.default.config();

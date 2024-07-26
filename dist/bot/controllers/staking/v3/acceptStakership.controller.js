@@ -10,7 +10,7 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.acceptStakershipScene = exports.textHandler = exports.enterScene = void 0;
-const main_controller_1 = require("@/bot/controllers/staking/v3/main.controller");
+const main_controller_1 = require("../../../../bot/controllers/staking/v3/main.controller");
 const telegraf_1 = require("telegraf");
 // when enter stakingV3Scene
 const enterScene = (ctx) => __awaiter(void 0, void 0, void 0, function* () {

@@ -15,7 +15,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.getLatestTimestamp = exports.getTotalKOMStaked = exports.getEthAndUsdtBalances = exports.getUSDTBalance = exports.getRoundDetails = exports.getUserTotalPurchase = exports.getRoundDetail = exports.getProjectProgress = exports.getLPStakingDetails = exports.getLPBalance = exports.getStakingV3StakedDetails = exports.getStakershipDetails = exports.getStakingV3Details = exports.getStakingV3Detail = exports.getStakingV1Details = exports.getStakingV2Details = exports.getTokenBalances = exports.getKOMVBalance = exports.getKOMBalance = exports.getETHBalance = void 0;
 const config_1 = require("../../constants/config");
 const utils_1 = require("./utils");
-const publicGovSale_json_1 = __importDefault(require("@/constants/abis/launchpad/publicGovSale.json"));
+const publicGovSale_json_1 = __importDefault(require("../../constants/abis/launchpad/publicGovSale.json"));
 const ethers_1 = require("ethers");
 /**
  * get native token balance

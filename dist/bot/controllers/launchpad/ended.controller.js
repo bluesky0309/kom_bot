@@ -10,11 +10,11 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.detail = exports.menu = void 0;
-const utils_1 = require("@/bot/utils");
-const launchpad_1 = require("@/bot/utils/launchpad");
+const utils_1 = require("../../../bot/utils");
+const launchpad_1 = require("../../../bot/utils/launchpad");
 const main_controller_1 = require("../main.controller");
-const utils_2 = require("@/constants/utils");
-const pictures_1 = require("@/constants/pictures");
+const utils_2 = require("../../../constants/utils");
+const pictures_1 = require("../../../constants/pictures");
 const ethers_1 = require("ethers");
 const menu = (ctx) => __awaiter(void 0, void 0, void 0, function* () {
     var _a, _b;

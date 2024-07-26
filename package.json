@@ -9,7 +9,7 @@
   "scripts": {
     "dev": "nodemon",
     "start": "ts-node-dev src/server.ts",
-    "build": "tsc",
+    "build": "tsc && tsc-alias",
     "server": "node dist/server.js",
     "production": "set PORT=80&&set ENVIRONMENT=PRODUCTION&&ts-node src/server.ts",
     "lint": "eslint src/**/*.ts",
@@ -48,6 +48,7 @@
     "nodemon": "^3.1.4",
     "prettier": "^3.3.3",
     "ts-node": "^10.9.2",
+    "tsc-alias": "^1.8.10",
     "typescript": "^5.5.3"
   }
 }

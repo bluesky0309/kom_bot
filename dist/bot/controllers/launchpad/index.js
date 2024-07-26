@@ -10,9 +10,9 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.handleClaimableOnly = exports.handleInvestedOnly = exports.handleSearch = exports.handlePagination = exports.handleBack = exports.handleNext = exports.menu = void 0;
-const utils_1 = require("@/bot/utils");
-const main_controller_1 = require("@/bot/controllers/main.controller");
-const pictures_1 = require("@/constants/pictures");
+const utils_1 = require("../../../bot/utils");
+const main_controller_1 = require("../../../bot/controllers/main.controller");
+const pictures_1 = require("../../../constants/pictures");
 const upcoming_controller_1 = require("./upcoming.controller");
 const active_controller_1 = require("./active.controller");
 const ended_controller_1 = require("./ended.controller");

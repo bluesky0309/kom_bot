@@ -10,13 +10,13 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.menu = void 0;
-const utils_1 = require("@/bot/utils");
-const config_1 = require("@/constants/config");
-const utils_2 = require("@/bot/utils");
-const utils_3 = require("@/bot/utils");
-const config_2 = require("@/constants/config");
+const utils_1 = require("../../../bot/utils");
+const config_1 = require("../../../constants/config");
+const utils_2 = require("../../../bot/utils");
+const utils_3 = require("../../../bot/utils");
+const config_2 = require("../../../constants/config");
 const telegraf_1 = require("telegraf");
-const main_controller_1 = require("@/bot/controllers/main.controller");
+const main_controller_1 = require("../../../bot/controllers/main.controller");
 // show staking menus
 const menu = (ctx) => __awaiter(void 0, void 0, void 0, function* () {
     ctx.session.currentLaunchpadType = undefined;

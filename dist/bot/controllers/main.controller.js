@@ -27,10 +27,10 @@ const upcoming_controller_1 = require("./launchpad/upcoming.controller");
 const active_controller_1 = require("./launchpad/active.controller");
 const ended_controller_1 = require("./launchpad/ended.controller");
 const vesting_controller_1 = require("./launchpad/vesting.controller");
-const pictures_1 = require("@/constants/pictures");
+const pictures_1 = require("../../constants/pictures");
 const main_controller_5 = require("./staking/v3/main.controller");
 const acceptStakership_controller_1 = require("./staking/v3/acceptStakership.controller");
-const config_1 = require("@/constants/config");
+const config_1 = require("../../constants/config");
 /**
  * show wallet select option at start
  * @param ctx

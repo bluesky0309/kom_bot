@@ -13,14 +13,14 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.detail = exports.menu = void 0;
-const utils_1 = require("@/bot/utils");
-const launchpad_1 = require("@/bot/utils/launchpad");
-const config_1 = require("@/constants/config");
+const utils_1 = require("../../../bot/utils");
+const launchpad_1 = require("../../../bot/utils/launchpad");
+const config_1 = require("../../../constants/config");
 const main_controller_1 = require("../main.controller");
 const telegraf_1 = require("telegraf");
-const pictures_1 = require("@/constants/pictures");
+const pictures_1 = require("../../../constants/pictures");
 const ethers_1 = require("ethers");
-const ERC20_json_1 = __importDefault(require("@/constants/abis/tokens/ERC20.json"));
+const ERC20_json_1 = __importDefault(require("../../../constants/abis/tokens/ERC20.json"));
 const _filterOnlyClaimable = (_project, _user) => __awaiter(void 0, void 0, void 0, function* () {
     var _a;
     const { address, chain } = _project.claim;
